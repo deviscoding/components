@@ -1,0 +1,26 @@
+{
+    "name": "strapless/components",
+    "keywords": [
+        "responsive",
+        "card",
+        "panel",
+        "sass",
+        "scss",
+        "strapless",
+        "css"
+    ],
+    "homepage": "https://www.github.com/strapless/components",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Aaron M Jones",
+            "homepage": "http://www.jonesiscoding.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "strapless/colors": "^1.0.4",
+        "strapless/base": "^1.1.1",
+        "strapless/card": "^1.0"
+    }
+}
