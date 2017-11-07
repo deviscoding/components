@@ -10,7 +10,7 @@
         "css"
     ],
     "homepage": "https://www.github.com/strapless/components",
-    "version": "1.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Aaron M Jones",
@@ -21,6 +21,6 @@
     "require": {
         "strapless/colors": "^1.0.4",
         "strapless/base": "^1.1.1",
-        "strapless/card": "^1.0"
+        "strapless/card": "^1.0.1"
     }
 }
