@@ -1,0 +1,342 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eda69bf8d2245a0664910248488b170f",
+    "packages": [
+        {
+            "name": "strapless/base",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/base.git",
+                "reference": "4f3b464eb4d196a71646dd29501d565b28cc60bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/base/zipball/4f3b464eb4d196a71646dd29501d565b28cc60bd",
+                "reference": "4f3b464eb4d196a71646dd29501d565b28cc60bd",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "SASS Functions & mixins for managing variables within various SASS components.",
+            "homepage": "https://www.github.com/strapless/base",
+            "keywords": [
+                "css",
+                "maps",
+                "sass",
+                "scss",
+                "strapless",
+                "variables"
+            ],
+            "time": "2017-12-05T01:04:44+00:00"
+        },
+        {
+            "name": "strapless/buttons",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/buttons.git",
+                "reference": "1c477270c5c6cb1f462896c82ae9c0a0b27788af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/buttons/zipball/1c477270c5c6cb1f462896c82ae9c0a0b27788af",
+                "reference": "1c477270c5c6cb1f462896c82ae9c0a0b27788af",
+                "shasum": ""
+            },
+            "require": {
+                "strapless/base": "^1.1",
+                "strapless/colors": "^1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "Drop in replacement for Bootstrap buttons, with Material Design effects. Designed for the StrapLess Framework, but usable as a standalone component.",
+            "homepage": "https://www.github.com/strapless/buttons",
+            "keywords": [
+                "bootstrap",
+                "buttons",
+                "css",
+                "material",
+                "ripple",
+                "sass",
+                "scss",
+                "strapless"
+            ],
+            "time": "2017-12-05T14:38:05+00:00"
+        },
+        {
+            "name": "strapless/card",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/card.git",
+                "reference": "fa30bf32fa9bfcf5a7d42709be520f2afabbae60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/card/zipball/fa30bf32fa9bfcf5a7d42709be520f2afabbae60",
+                "reference": "fa30bf32fa9bfcf5a7d42709be520f2afabbae60",
+                "shasum": ""
+            },
+            "require": {
+                "strapless/base": "^1.1.5",
+                "strapless/colors": "^1.0.5"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "Card component from Bootstrap 4, modified for usage as a standalone component, with Bootstrap 3, or as part of the StrapLess framework.",
+            "homepage": "https://www.github.com/strapless/card",
+            "keywords": [
+                "card",
+                "css",
+                "panel",
+                "responsive",
+                "sass",
+                "scss",
+                "strapless"
+            ],
+            "time": "2017-12-05T01:34:43+00:00"
+        },
+        {
+            "name": "strapless/colors",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/colors.git",
+                "reference": "3acc84557d0277cadd1d723a140a83b2092ffd22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/colors/zipball/3acc84557d0277cadd1d723a140a83b2092ffd22",
+                "reference": "3acc84557d0277cadd1d723a140a83b2092ffd22",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "SASS color functions, maps and CSS used in StrapLess components.  Can also be used quite effectively in any SASS where one desires an easy way to manage colors.",
+            "homepage": "https://www.github.com/strapless/colors",
+            "keywords": [
+                "color",
+                "map",
+                "sass",
+                "scss",
+                "strapless"
+            ],
+            "time": "2017-11-16T14:48:39+00:00"
+        },
+        {
+            "name": "strapless/display",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/display.git",
+                "reference": "fdc74c658b673cbb7a9e7645bd829da96ca096f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/display/zipball/fdc74c658b673cbb7a9e7645bd829da96ca096f9",
+                "reference": "fdc74c658b673cbb7a9e7645bd829da96ca096f9",
+                "shasum": ""
+            },
+            "require": {
+                "strapless/base": "^1.0"
+            },
+            "suggest": {
+                "exactquery/d.js": "^2.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "Responsive classes for managing CSS display properties.",
+            "homepage": "https://www.github.com/strapless/display",
+            "keywords": [
+                "css",
+                "display",
+                "responsive",
+                "sass",
+                "scss",
+                "strapless"
+            ],
+            "time": "2017-10-26T13:57:01+00:00"
+        },
+        {
+            "name": "strapless/drawer",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/drawer.git",
+                "reference": "413586714442a29db796d4c9c2bbe61ce3a56cbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/drawer/zipball/413586714442a29db796d4c9c2bbe61ce3a56cbb",
+                "reference": "413586714442a29db796d4c9c2bbe61ce3a56cbb",
+                "shasum": ""
+            },
+            "require": {
+                "strapless/base": "^1.1.1",
+                "strapless/colors": "^1.0.4",
+                "strapless/display": "^1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "homepage": "https://www.github.com/strapless/drawer",
+            "keywords": [
+                "css",
+                "drawer",
+                "material",
+                "responsive",
+                "sass",
+                "scss",
+                "strapless"
+            ],
+            "time": "2017-11-16T14:58:20+00:00"
+        },
+        {
+            "name": "strapless/icons",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/icons.git",
+                "reference": "1c7fc4c1801d195cdefa3929605a858b64936d97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/icons/zipball/1c7fc4c1801d195cdefa3929605a858b64936d97",
+                "reference": "1c7fc4c1801d195cdefa3929605a858b64936d97",
+                "shasum": ""
+            },
+            "require": {
+                "strapless/base": "^1.1.5"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "CSS Classes, Mixins and Functions to manage icons for the StrapLess CSS Framework.  Also usable for other CSS projects.",
+            "homepage": "https://www.github.com/strapless/icons",
+            "keywords": [
+                "css",
+                "font",
+                "icons",
+                "sass",
+                "scss",
+                "strapless",
+                "svg"
+            ],
+            "time": "2017-12-05T01:24:05+00:00"
+        },
+        {
+            "name": "strapless/layout",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/strapless/layout.git",
+                "reference": "e098ee66488a19da9c76e095019ba2ada033035e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/strapless/layout/zipball/e098ee66488a19da9c76e095019ba2ada033035e",
+                "reference": "e098ee66488a19da9c76e095019ba2ada033035e",
+                "shasum": ""
+            },
+            "require": {
+                "strapless/base": "^1.1",
+                "strapless/colors": "^1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron M Jones",
+                    "homepage": "http://www.jonesiscoding.com"
+                }
+            ],
+            "description": "CSS Classes, Mixins and Functions to control header, footer, and basic layout in the StrapLess CSS Framework.  Also usable for other CSS projects.",
+            "homepage": "https://www.github.com/strapless/layout",
+            "keywords": [
+                "css",
+                "layout",
+                "sass",
+                "scss",
+                "strapless"
+            ],
+            "time": "2017-12-05T15:04:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
