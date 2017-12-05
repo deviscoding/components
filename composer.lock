@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/strapless/layout.git",
-                "reference": "e098ee66488a19da9c76e095019ba2ada033035e"
+                "reference": "27ea1aa4c5ecb5524965b49c1be6b8d0fb51e3a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/strapless/layout/zipball/e098ee66488a19da9c76e095019ba2ada033035e",
-                "reference": "e098ee66488a19da9c76e095019ba2ada033035e",
+                "url": "https://api.github.com/repos/strapless/layout/zipball/27ea1aa4c5ecb5524965b49c1be6b8d0fb51e3a4",
+                "reference": "27ea1aa4c5ecb5524965b49c1be6b8d0fb51e3a4",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2017-12-05T15:04:26+00:00"
+            "time": "2017-12-05T17:15:44+00:00"
         }
     ],
     "packages-dev": [],
