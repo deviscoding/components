@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a42dbb8a900ab5a0561b1e974e29655",
+    "content-hash": "964947edb253fc9081fc08042b333490",
     "packages": [
         {
             "name": "strapless/base",
