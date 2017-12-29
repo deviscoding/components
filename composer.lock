@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1542bcd8989dc1e04e6d76539065122a",
+    "content-hash": "6a42dbb8a900ab5a0561b1e974e29655",
     "packages": [
         {
             "name": "strapless/base",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/strapless/base.git",
-                "reference": "a7ba47d09e32b6b9200db0f24d360cc73d75d253"
+                "reference": "a653e4bb2f2af3104001bfbe5589c6c4e0663319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/strapless/base/zipball/a7ba47d09e32b6b9200db0f24d360cc73d75d253",
-                "reference": "a7ba47d09e32b6b9200db0f24d360cc73d75d253",
+                "url": "https://api.github.com/repos/strapless/base/zipball/a653e4bb2f2af3104001bfbe5589c6c4e0663319",
+                "reference": "a653e4bb2f2af3104001bfbe5589c6c4e0663319",
                 "shasum": ""
             },
             "type": "library",
@@ -41,7 +41,7 @@
                 "strapless",
                 "variables"
             ],
-            "time": "2017-12-13T13:53:02+00:00"
+            "time": "2017-12-27T01:51:45+00:00"
         },
         {
             "name": "strapless/buttons",
@@ -209,16 +209,16 @@
         },
         {
             "name": "strapless/drawer",
-            "version": "1.1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/strapless/drawer.git",
-                "reference": "a2a1d0b9eede0ac39c51774c3c52d41c98f6e7c8"
+                "reference": "9b8d5cf9de3071159e78e3eb3ab16931cec7423c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/strapless/drawer/zipball/a2a1d0b9eede0ac39c51774c3c52d41c98f6e7c8",
-                "reference": "a2a1d0b9eede0ac39c51774c3c52d41c98f6e7c8",
+                "url": "https://api.github.com/repos/strapless/drawer/zipball/9b8d5cf9de3071159e78e3eb3ab16931cec7423c",
+                "reference": "9b8d5cf9de3071159e78e3eb3ab16931cec7423c",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2017-12-13T14:05:13+00:00"
+            "time": "2017-12-28T14:14:23+00:00"
         },
         {
             "name": "strapless/icons",
@@ -293,21 +293,22 @@
         },
         {
             "name": "strapless/layout",
-            "version": "1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/strapless/layout.git",
-                "reference": "1ce43728416243b1a3c6cc1d623f243bfb468221"
+                "reference": "7a0437fe572bcef4e0e8054c5fb9a15d350b041c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/strapless/layout/zipball/1ce43728416243b1a3c6cc1d623f243bfb468221",
-                "reference": "1ce43728416243b1a3c6cc1d623f243bfb468221",
+                "url": "https://api.github.com/repos/strapless/layout/zipball/7a0437fe572bcef4e0e8054c5fb9a15d350b041c",
+                "reference": "7a0437fe572bcef4e0e8054c5fb9a15d350b041c",
                 "shasum": ""
             },
             "require": {
                 "strapless/base": "^1.1",
-                "strapless/colors": "^1.0"
+                "strapless/colors": "^1.0",
+                "strapless/icons": "^1.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -329,7 +330,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2017-12-12T15:27:49+00:00"
+            "time": "2017-12-29T14:28:46+00:00"
         }
     ],
     "packages-dev": [],
