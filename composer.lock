@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "964947edb253fc9081fc08042b333490",
+    "content-hash": "f8619bd39aaed3488d9c4f49b9e2e271",
     "packages": [
         {
             "name": "strapless/base",
@@ -209,16 +209,16 @@
         },
         {
             "name": "strapless/drawer",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/strapless/drawer.git",
-                "reference": "9b8d5cf9de3071159e78e3eb3ab16931cec7423c"
+                "reference": "b36f928ad04e043329bb59a6994b791cd5feb7f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/strapless/drawer/zipball/9b8d5cf9de3071159e78e3eb3ab16931cec7423c",
-                "reference": "9b8d5cf9de3071159e78e3eb3ab16931cec7423c",
+                "url": "https://api.github.com/repos/strapless/drawer/zipball/b36f928ad04e043329bb59a6994b791cd5feb7f1",
+                "reference": "b36f928ad04e043329bb59a6994b791cd5feb7f1",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2017-12-28T14:14:23+00:00"
+            "time": "2018-01-12T14:15:10+00:00"
         },
         {
             "name": "strapless/icons",
