@@ -1,5 +1,5 @@
 {
-    "name": "strapless/components",
+    "name": "deviscoding/components",
     "keywords": [
         "responsive",
         "card",
@@ -9,8 +9,8 @@
         "strapless",
         "css"
     ],
-    "homepage": "https://www.github.com/strapless/components",
-    "version": "2.0.1",
+    "homepage": "https://www.github.com/deviscoding/components",
+    "version": "2.1",
     "authors": [
         {
             "name": "Aaron M Jones",
@@ -18,13 +18,16 @@
         }
     ],
     "license": "MIT",
+    "replace": {
+        "strapless/components": "^2.0"
+    },
     "require": {
-        "strapless/colors": "^1.0.5",
-        "strapless/base": "^1.1.5",
-        "strapless/card": "^1.0.4",
-        "strapless/drawer": "^2.0",
-        "strapless/icons": "^1.0",
-        "strapless/buttons": "^1.1",
-        "strapless/layout": "^1.1.3"
+        "deviscoding/colors": "^1.0.5",
+        "deviscoding/base": "^2.0",
+        "deviscoding/card": "^1.0.7",
+        "deviscoding/drawer": "^2.1",
+        "deviscoding/icons": "^1.0.3",
+        "deviscoding/buttons": "^1.1.2",
+        "deviscoding/layout": "^1.1.5"
     }
 }
