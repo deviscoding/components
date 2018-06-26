@@ -10,7 +10,7 @@
         "css"
     ],
     "homepage": "https://www.github.com/deviscoding/components",
-    "version": "2.1",
+    "version": "2.1.1",
     "authors": [
         {
             "name": "Aaron M Jones",
@@ -27,7 +27,7 @@
         "deviscoding/card": "^1.0.7",
         "deviscoding/drawer": "^2.1",
         "deviscoding/icons": "^1.0.3",
-        "deviscoding/buttons": "^1.1.2",
-        "deviscoding/layout": "^1.1.5"
+        "deviscoding/buttons": "^1.1.3",
+        "deviscoding/layout": "^1.1.6"
     }
 }
