@@ -1,12 +1,53 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "60fb2513fbf5accc949ca9311da31e0b",
-    "content-hash": "412d7531bccbab6c96596396bf141021",
+    "content-hash": "b532a1ad103b5824aa233a9635731b26",
     "packages": [
+        {
+            "name": "components/jquery",
+            "version": "1.12.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "5dd7297d7603e11e53bdcca2a71074d92de37b8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/5dd7297d7603e11e53bdcca2a71074d92de37b8f",
+                "reference": "5dd7297d7603e11e53bdcca2a71074d92de37b8f",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery-migrate.js",
+                        "jquery-migrate.min.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Resig",
+                    "email": "jeresig@gmail.com"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2016-05-25T06:50:04+00:00"
+        },
         {
             "name": "deviscoding/base",
             "version": "2.0.3",
@@ -45,7 +86,7 @@
                 "strapless",
                 "variables"
             ],
-            "time": "2018-06-20 12:44:34"
+            "time": "2018-06-20T12:44:34+00:00"
         },
         {
             "name": "deviscoding/buttons",
@@ -91,7 +132,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-25 17:56:50"
+            "time": "2018-06-25T17:56:50+00:00"
         },
         {
             "name": "deviscoding/card",
@@ -137,7 +178,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-21 13:58:14"
+            "time": "2018-06-21T13:58:14+00:00"
         },
         {
             "name": "deviscoding/colors",
@@ -176,7 +217,47 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-05-23 15:47:48"
+            "time": "2018-05-23T15:47:48+00:00"
+        },
+        {
+            "name": "deviscoding/custom-time",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deviscoding/custom-time.git",
+                "reference": "71f6794f8c781516571b0eb49ca2a00a767117a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deviscoding/custom-time/zipball/71f6794f8c781516571b0eb49ca2a00a767117a9",
+                "reference": "71f6794f8c781516571b0eb49ca2a00a767117a9",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": "^1.10",
+                "deviscoding/base": "^2.0",
+                "deviscoding/colors": "^1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AMJones",
+                    "homepage": "https://www.deviscoding.com/"
+                }
+            ],
+            "description": "Cross browser time implementation using CSS and JQuery.  Compatible with Twitter Bootstrap",
+            "homepage": "https://github.com/deviscoding/custom-time",
+            "keywords": [
+                "bootstrap",
+                "replacement",
+                "sass",
+                "time"
+            ],
+            "time": "2018-08-27T14:36:25+00:00"
         },
         {
             "name": "deviscoding/device",
@@ -227,7 +308,7 @@
                 "retina",
                 "touch"
             ],
-            "time": "2018-05-08 14:13:02"
+            "time": "2018-05-08T14:13:02+00:00"
         },
         {
             "name": "deviscoding/display",
@@ -273,7 +354,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-20 14:06:08"
+            "time": "2018-06-20T14:06:08+00:00"
         },
         {
             "name": "deviscoding/drawer",
@@ -322,7 +403,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-22 13:32:29"
+            "time": "2018-06-22T13:32:29+00:00"
         },
         {
             "name": "deviscoding/icons",
@@ -367,7 +448,7 @@
                 "strapless",
                 "svg"
             ],
-            "time": "2018-06-21 13:47:06"
+            "time": "2018-06-21T13:47:06+00:00"
         },
         {
             "name": "deviscoding/layout",
@@ -412,7 +493,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-25 17:59:19"
+            "time": "2018-06-25T17:59:19+00:00"
         },
         {
             "name": "deviscoding/responsive",
@@ -452,7 +533,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-20 13:09:01"
+            "time": "2018-06-20T13:09:01+00:00"
         }
     ],
     "packages-dev": [],
