@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3930b4cc800005d7b833629640bd34fc",
+    "content-hash": "f662da58a9c81c3d327ad749d03b89b2",
     "packages": [
         {
             "name": "components/jquery",
@@ -221,16 +221,16 @@
         },
         {
             "name": "deviscoding/custom-time",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deviscoding/custom-time.git",
-                "reference": "ff3257fd77f146e24d551ecc73c772af8da22d51"
+                "reference": "d4bc29bad7e68a13d8917ad04573d4921422f94b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deviscoding/custom-time/zipball/ff3257fd77f146e24d551ecc73c772af8da22d51",
-                "reference": "ff3257fd77f146e24d551ecc73c772af8da22d51",
+                "url": "https://api.github.com/repos/deviscoding/custom-time/zipball/d4bc29bad7e68a13d8917ad04573d4921422f94b",
+                "reference": "d4bc29bad7e68a13d8917ad04573d4921422f94b",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +257,7 @@
                 "sass",
                 "time"
             ],
-            "time": "2018-08-29T13:41:50+00:00"
+            "time": "2018-12-06T02:33:24+00:00"
         },
         {
             "name": "deviscoding/device",
