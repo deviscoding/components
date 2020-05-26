@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc37ef03e10e72df67d9f47d6cbe5af7",
+    "content-hash": "ce4131be4c950da2809cc231665e87a6",
     "packages": [
         {
             "name": "components/jquery",
@@ -261,20 +261,20 @@
         },
         {
             "name": "deviscoding/device",
-            "version": "3.0.3",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonesiscoding/device.git",
-                "reference": "13c906e6307ad68a53c9cfb978f62445297db65c"
+                "reference": "e314727ca0ffda423daa98fa32e0cadf418295cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonesiscoding/device/zipball/13c906e6307ad68a53c9cfb978f62445297db65c",
-                "reference": "13c906e6307ad68a53c9cfb978f62445297db65c",
+                "url": "https://api.github.com/repos/jonesiscoding/device/zipball/e314727ca0ffda423daa98fa32e0cadf418295cf",
+                "reference": "e314727ca0ffda423daa98fa32e0cadf418295cf",
                 "shasum": ""
             },
-            "replace": {
-                "exactquery/xq-detect": "^3.0"
+            "require": {
+                "ext-json": "*"
             },
             "suggest": {
                 "deviscoding/poly-pointer": "Psuedo-Polyfill for (pointer:coarse). Easy support of touch devices."
@@ -282,7 +282,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "XQ\\": "src"
+                    "DevCoding\\Device\\": "src/Device",
+                    "DevCoding\\ValueObject\\": "src/ValueObject"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -308,7 +309,7 @@
                 "retina",
                 "touch"
             ],
-            "time": "2018-05-08T14:13:02+00:00"
+            "time": "2020-05-26T13:22:25+00:00"
         },
         {
             "name": "deviscoding/display",
@@ -497,21 +498,21 @@
         },
         {
             "name": "deviscoding/responsive",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deviscoding/responsive.git",
-                "reference": "ec64ef31ac68423474d2201a3f32dea2e4555ef6"
+                "reference": "4d670bbb2affd7e3285d9b74c7d9d3e7d4f4b982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deviscoding/responsive/zipball/ec64ef31ac68423474d2201a3f32dea2e4555ef6",
-                "reference": "ec64ef31ac68423474d2201a3f32dea2e4555ef6",
+                "url": "https://api.github.com/repos/deviscoding/responsive/zipball/4d670bbb2affd7e3285d9b74c7d9d3e7d4f4b982",
+                "reference": "4d670bbb2affd7e3285d9b74c7d9d3e7d4f4b982",
                 "shasum": ""
             },
             "require": {
                 "deviscoding/base": "^2.0",
-                "deviscoding/device": "^3.0"
+                "deviscoding/device": "^4.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -533,7 +534,7 @@
                 "scss",
                 "strapless"
             ],
-            "time": "2018-06-20T13:09:01+00:00"
+            "time": "2020-05-26T14:48:38+00:00"
         }
     ],
     "packages-dev": [],
@@ -543,5 +544,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
