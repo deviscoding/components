@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00c1e5c10f3b465cde20579f68ea3b3b",
+    "content-hash": "55554f3f231aec6bf0ef527d843c405c",
     "packages": [
         {
             "name": "components/jquery",
@@ -261,16 +261,16 @@
         },
         {
             "name": "deviscoding/device",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonesiscoding/device.git",
-                "reference": "8fd7c3d23ed5fa9b3fcd4ae80b2de065c2eb8d34"
+                "reference": "744ff04fac738e99ec1b93a936f8d688d60e61fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonesiscoding/device/zipball/8fd7c3d23ed5fa9b3fcd4ae80b2de065c2eb8d34",
-                "reference": "8fd7c3d23ed5fa9b3fcd4ae80b2de065c2eb8d34",
+                "url": "https://api.github.com/repos/jonesiscoding/device/zipball/744ff04fac738e99ec1b93a936f8d688d60e61fe",
+                "reference": "744ff04fac738e99ec1b93a936f8d688d60e61fe",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "retina",
                 "touch"
             ],
-            "time": "2020-05-26T18:23:53+00:00"
+            "time": "2020-05-27T13:12:22+00:00"
         },
         {
             "name": "deviscoding/display",
