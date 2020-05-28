@@ -261,16 +261,16 @@
         },
         {
             "name": "deviscoding/device",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonesiscoding/device.git",
-                "reference": "744ff04fac738e99ec1b93a936f8d688d60e61fe"
+                "reference": "c173950cb478781f708a756fd757e07fdeda4cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonesiscoding/device/zipball/744ff04fac738e99ec1b93a936f8d688d60e61fe",
-                "reference": "744ff04fac738e99ec1b93a936f8d688d60e61fe",
+                "url": "https://api.github.com/repos/jonesiscoding/device/zipball/c173950cb478781f708a756fd757e07fdeda4cc9",
+                "reference": "c173950cb478781f708a756fd757e07fdeda4cc9",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "retina",
                 "touch"
             ],
-            "time": "2020-05-27T13:12:22+00:00"
+            "time": "2020-05-28T13:36:11+00:00"
         },
         {
             "name": "deviscoding/display",
